@@ -1,6 +1,7 @@
 module workshopJavafxJdbc {
 	requires javafx.controls;
 	requires javafx.fxml;
+	requires java.sql;
 
 	exports gui;
 	opens gui;
