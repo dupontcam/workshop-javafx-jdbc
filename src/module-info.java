@@ -7,6 +7,7 @@ module workshopJavafxJdbc {
 	exports gui;
 	exports model.services;
 	exports model.entities;
+	exports gui.listeners;
 	opens gui;
 	opens model.entities to javafx.base;
 
